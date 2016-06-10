@@ -1,3 +1,0 @@
-$ curl -XPOST https://api.twilio.com/2010-04-01/Accounts/{{ account_sid }}/SigningKeys.json \
-    -d "FriendlyName=User+Jenny" \
-    -u '{{ account_sid }}:{{ auth_token }}'
